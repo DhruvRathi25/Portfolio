@@ -1,0 +1,155 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: black;
+}
+header{
+    display:flex;
+    margin-bottom:20vh;
+    background-color: black;
+    padding: 1vh;
+    position:fixed;
+}
+#home{
+    display:flex;
+    margin-bottom: 50vh;
+    padding-top: 25vh;
+}
+a{
+    padding:1vh;
+    text-decoration: none;
+}
+.butn{
+    color: white;
+    background-color: black;
+    margin:0vh 0vh 0vh 3vh;
+}
+.one{
+    display: flex;
+    justify-content: flex-start;
+    width:80vh;
+}
+.two{
+    display: flex;
+    justify-content: flex-end;
+    width:100vh;
+}
+img{
+    height:50vh;
+    width:50vh;
+}
+#image{
+    margin-right: 20vh;
+    margin-left: 5vh;
+    object-fit:cover;
+}
+#name{
+
+    font-size: 8vh;
+    color:green;
+    margin-bottom: 3vh;
+}
+p{
+    color: white;
+}
+.info{
+    font-size: 3vh;
+    width:90vh;
+}
+#resume{
+    margin-top: 10vh;
+    border: solid;
+    border-color: green;
+    background-color: black;
+    color: green;
+    text-decoration: none;
+    padding: 1vh;
+}
+#description{
+    margin-bottom: 10vh;
+}
+button:hover{
+    background-color: black;
+}
+#about{
+    display:flex;
+    margin-bottom: 50vh;
+    flex-wrap:wrap;
+}
+h2{
+    color:white;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+.education{
+    padding: 5vh;
+    width:80vh;
+    border-style:solid;
+    border-color: green;
+    border-radius: 5vh;
+    margin-bottom: 5vh;
+}
+li{
+    color:white;
+    margin-bottom: 2vh;
+}
+h1{
+    color:green;
+    width:100%;
+    text-align: center;
+    margin-bottom: 10vh;
+}
+.projects{
+    border-style:solid;
+    border-color: green;
+    border-radius: 5vh;
+    width:80vh;
+    padding: 5vh;
+}
+.skills{
+    width:60vh;
+    border-style:solid;
+    border-color: green;
+    border-radius: 5vh;
+    padding:5vh 10vh 5vh 10vh;
+    margin-right: 5vh;
+}
+.box{
+    margin-right: 10vh;
+}
+#heading{
+    margin-bottom: 15vh;
+}
+button{
+    padding:2vh;
+    margin:2vh;
+    width:15vh;
+    color:green;
+}
+#contact{
+    display:flex;
+}
+.message{
+    width:110vh;
+    margin-left:10vh;
+    margin-right: 20vh;
+}
+.feed{
+    width:100vh;
+    margin: 2vh;
+    padding:1vh;
+}
+#submit{
+    margin-left:45vh;
+}
+.personal{
+    margin-top:5vh;
+}
+i{
+    width:10vh;
+    height:10vh;
+    color:green;
+    text-align: center;
+}
