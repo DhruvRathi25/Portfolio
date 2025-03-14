@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Potfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
+</head>
+<body>
+    <header>
+        <div class="one">
+            <a href="#home" class="butn">HOME</a>
+            <a href="#about" class="butn">ABOUT</a>
+        </div>
+        <div class="two">
+            <a href="#contact" class="butn">CONTACT</a>
+        </div>
+    </header>
+    <div id="home">
+        <div id="image">
+            <img src="WhatsApp Image 2025-01-05 at 13.04.18_658624bb.jpg">
+        </div>
+        <div class="info">
+            <p>Hi,</p>
+            <p>My name is </p> 
+            <p id="name"></p>
+            <p id="description">I am currently pursuing B.TECH from Delhi Technological University in the field of Electronics and Communication.
+                I am also passionate about software field and actively learning on various new technologies.I believe in teamwork and coordination and intend to serve the world with my abilities
+            </p>
+            <a href="RESUME.pdf" id="resume">RESUME</a>
+
+        </div>
+    </div>
+    <div id="about">
+        <h1>ABOUT ME</h1>
+        <div class="box">
+        <div class="education">
+            <h2>EDUCATION</h2>
+            <ul>
+                <li>B. TECH.(2026 EXPECTED)- DTU</li>
+                <li>12TH(2022)- ST ANDREWS SR. SEC. SCHOOL</li>
+                <li>10TH(2020)- ST ANDREWS SR. SEC. SCHOOL</li>
+            </ul>
+        </div>
+        <div class="projects">
+            <h2>PROJECTS</h2>
+            <ul>
+                <li>STAT FINDER- Returns the test match stats of the player searched</li>
+                <li>PORTFOLIO WEBSITE</li>
+            </ul>
+        </div>   
+        </div> 
+        <div class="skills">
+            <h2 id="heading">SKILLS</h2>
+            <button>C</button>
+            <button>C++</button>
+            <button>HTML</button>
+            <button>CSS</button>
+            <button>JS</button>
+            <button>DSA</button>
+            <button>PYTHON</button>
+            <button>MATLAB</button>
+            <button>SIMULINK</button>
+        </div>
+    </div>
+    <h1>CONTACT ME</h1>
+    <div id="contact">
+        <div class="message">
+            <form autocomplete="on">
+                <input id="yourname" class="feed" type="text" placeholder="Enter Your Name" required>
+                <input id="email" class="feed" type="text" placeholder="Enter Your Email" required>
+                <textarea id="message" class="feed" name="message" rows="6" placeholder="Enter Your Message"></textarea>
+                <button id="submit">SUBMIT</button>
+            </form>
+        </div>
+        <div class="personal">
+            <p><i class="fa-solid fa-phone"></i>6398563907</p>
+            <p><i class="fa-solid fa-envelope"></i>dhruv25rathi@gmail.com</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
